@@ -1,4 +1,5 @@
 #!/bin/bash
+jupyter labextension install @jupyter-voila/jupyterlab-preview
 jupyter serverextension enable voila --sys-prefix
 # install the PR from Wigyts
 git clone https://github.com/data-exp-lab/widgyts.git
