@@ -1,4 +1,5 @@
 #!/bin/bash
+pip install -r requirements.txt
 jupyter labextension install @jupyter-voila/jupyterlab-preview
 jupyter serverextension enable voila --sys-prefix
 # install the PR from Wigyts
