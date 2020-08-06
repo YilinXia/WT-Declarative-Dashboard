@@ -1,5 +1,2 @@
 #!/bin/bash
-git clone https://github.com/voila-dashboards/voila.git
-cd voila
-conda env update -f environment.yml
 jupyter serverextension enable voila --sys-prefix
