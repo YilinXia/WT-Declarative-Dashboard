@@ -1,5 +1,7 @@
 #!/bin/bash
-pip install -r binder/requirements.txt
+# have to re-do this since the requirements.txt did not work for 
+# pkg matplotlib. Guess the problem might be Jupyter Lab
+pip install -r binder/requirements.txt 
 jupyter labextension install @jupyter-voila/jupyterlab-preview
 jupyter serverextension enable voila --sys-prefix
 # install the PR from Wigyts
