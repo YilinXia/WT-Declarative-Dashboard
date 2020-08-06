@@ -1,2 +1,9 @@
 #!/bin/bash
 jupyter serverextension enable voila --sys-prefix
+# install the PR from Wigyts
+git clone https://github.com/data-exp-lab/widgyts.git
+cd widgyts
+git init
+git remote add upstream https://github.com/data-exp-lab/widgyts.git
+git pull upstream grid_view_widget
+pip install -e .
