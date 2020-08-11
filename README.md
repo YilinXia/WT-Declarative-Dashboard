@@ -9,7 +9,7 @@ Phase 2<br>
 The final result will be both a dashboard and a downloadable set of machine-readable representations of the current state of the dashboard, which can be re-ingested as a secondary tale.
 
 ## What and Why Voilà
-![bqplot-voila](image\bqplot.png)
+<img src="image/bqplot.png"  width="900" height="400">
 
 Voilà turns Jupyter notebooks into standalone applications and more dashboards can be found on [Voilà gallery](https://voila-gallery.org/).
 **Challenges faced by Jupyter**
