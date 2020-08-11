@@ -36,7 +36,7 @@ This repo will be used to store all the necessary files or scripts regarding the
 Here, we use binder (tight with repo2docker)to test our environement settings and later we will utilize all shell scripts from folder **"binder"** to set up the environment in WT.
 
 ## Interesting Questions
-1. requrements.txt did not work for jupyter lab -- have to use `pip install -r binder/requirements.txt` to ensure it install the appropriate pkgs
+1. when conflict happens between postbuild and requrements.txt and yml -- how to ensure it install the appropriate pkgs
 
 ## Reference
 QuantStack. (2019, September 25). And voilà! Retrieved August 10, 2020, from https://blog.jupyter.org/and-voil%C3%A0-f6a2c08a4a93
