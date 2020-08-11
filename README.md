@@ -9,8 +9,9 @@ Phase 2<br>
 The final result will be both a dashboard and a downloadable set of machine-readable representations of the current state of the dashboard, which can be re-ingested as a secondary tale.
 
 ## What and Why Voilà
-Voilà turns Jupyter notebooks into standalone applications and more dashboards can be found on [Voilà gallery](https://voila-gallery.org/).
+![bqplot-voila](image\bqplot.png)
 
+Voilà turns Jupyter notebooks into standalone applications and more dashboards can be found on [Voilà gallery](https://voila-gallery.org/).
 **Challenges faced by Jupyter**
 - not an ideal way to communicate with non-technical readers, who have to understand or re-execute the code to get insights
 - security mode: users can interact with the noetbooks without arbitrary running code
@@ -23,7 +24,9 @@ Voilà turns Jupyter notebooks into standalone applications and more dashboards 
 
 
 ## Jupyter widgets - ipyvuetify
+Ipyvuetify is a widget library for making modern looking GUI’s in Jupyter notebooks (classic and lab) and dashboards (Voilà). It’s based on the Google material design philosophy best known from the Android user interface.
 
+![ipyvuetify](https://user-images.githubusercontent.com/46192475/79730684-78954880-82f1-11ea-855b-43a2b619ca04.gif)
 
 ## Repo Description
 This repo will be used to store all the necessary files or scripts regarding the project described above.
@@ -33,10 +36,11 @@ This repo will be used to store all the necessary files or scripts regarding the
 Here, we use binder (tight with repo2docker)to test our environement settings and later we will utilize all shell scripts from folder **"binder"** to set up the environment in WT.
 
 ## Interesting Questions
-
+1. requrements.txt did not work for jupyter lab -- have to use `pip install -r binder/requirements.txt` to ensure it install the appropriate pkg
 
 ## Reference
 QuantStack. (2019, September 25). And voilà! Retrieved August 10, 2020, from https://blog.jupyter.org/and-voil%C3%A0-f6a2c08a4a93
+
 
 ## License
 
