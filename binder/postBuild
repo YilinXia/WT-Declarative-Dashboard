@@ -1,7 +1,6 @@
 #!/bin/bash
-# have to re-do this since the requirements.txt did not work for 
-# pkg matplotlib. Guess the problem might be Jupyter Lab
-pip install -r binder/pkg.txt 
+# set up voila environment
+conda env update -f binder/voila.yml
 jupyter labextension install @jupyter-voila/jupyterlab-preview
 jupyter serverextension enable voila --sys-prefix
 # install the PR from Wigyts
