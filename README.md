@@ -37,7 +37,7 @@ This repo will be used to store all the necessary files or scripts regarding the
 **Milestone 2** Successfully set up environment in WT
 
  we successfully utilize all shell scripts from folder **"binder"** to set up the environment in WT (tale name "Declarative Dashboards for Volumetric Data")
- <img src="image/WT.png"  width="900" height="300">
+ <img src="image/WT.png"  width="900" height="350">
 
 **Milestone 1** Launch PR "dataset viewver" in Jupyter Lab with Voila
 
