@@ -8,10 +8,12 @@ This project will explore developing a custom front-end for volumetric (i.e., as
 Phase 2<br>
 The final result will be both a dashboard and a downloadable set of machine-readable representations of the current state of the dashboard, which can be re-ingested as a secondary tale.
 
-## What and Why Voilà
-<img src="image/bqplot.png"  width="900" height="400">
+## What is and Why Voilà
 
 Voilà turns Jupyter notebooks into standalone applications and more dashboards can be found on [Voilà gallery](https://voila-gallery.org/).
+
+<img src="image/bqplot.png"  width="900" height="400">
+
 **Challenges faced by Jupyter**
 - not an ideal way to communicate with non-technical readers, who have to understand or re-execute the code to get insights
 - security mode: users can interact with the noetbooks without arbitrary running code
@@ -31,12 +33,18 @@ Ipyvuetify is a widget library for making modern looking GUI’s in Jupyter note
 ## Repo Description
 This repo will be used to store all the necessary files or scripts regarding the project described above.
  
+
+**Milestone 2** Successfully set up environment in WT
+
+ we successfully utilize all shell scripts from folder **"binder"** to set up the environment in WT (tale name "Declarative Dashboards for Volumetric Data")
+ <img src="image/WT.png"  width="900" height="300">
+
 **Milestone 1** Launch PR "dataset viewver" in Jupyter Lab with Voila
 
-Here, we use binder (tight with repo2docker)to test our environement settings and later we will utilize all shell scripts from folder **"binder"** to set up the environment in WT.
+Here, we use binder (tight with repo2docker)to test our environement settings
 
 ## Interesting Questions
-1. when conflict happens between postbuild and requrements.txt and yml -- how to ensure it install the appropriate pkgs
+1. 
 
 ## Reference
 QuantStack. (2019, September 25). And voilà! Retrieved August 10, 2020, from https://blog.jupyter.org/and-voil%C3%A0-f6a2c08a4a93
