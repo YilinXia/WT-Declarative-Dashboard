@@ -1,14 +1,7 @@
 #!/bin/bash
-pip install matplotlib==3.2.0
-pip install h5py==2.10.0
-pip install ipyvuetify==1.5.0
-pip install pythreejs==2.2.0
-pip install jupyterlab==2.2.0 ##avoid conflicting
-pip install voila==0.1.21
-conda update -n base conda
-conda env update -f voila.yml
-jupyter labextension install @jupyter-voila/jupyterlab-preview
-jupyter serverextension enable voila --sys-prefix
-#donot delete folder widgyts
+git clone https://github.com/data-exp-lab/widgyts.git
 cd widgyts
+git init
+git remote add upstream https://github.com/data-exp-lab/widgyts.git
+git pull upstream grid_view_widget
 pip install -e .

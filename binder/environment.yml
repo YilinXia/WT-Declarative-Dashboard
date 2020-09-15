@@ -6,7 +6,8 @@ dependencies:
   - bqplot
   - scipy
   - ipympl
-  - voila=0.1.21
-  - ipympl
-  - xleaflet=0.11.1
-  - xeus-cling=0.8.1
+  - voila
+  - h5py
+  - pythreejs
+  - matplotlib
+  - jupyter-voila/jupyterlab-preview
