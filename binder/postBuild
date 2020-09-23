@@ -1,9 +1,0 @@
-#!/bin/bash
-jupyter labextension install @jupyter-voila/jupyterlab-preview
-jupyter serverextension enable voila --sys-prefix
-git clone https://github.com/data-exp-lab/widgyts.git
-cd widgyts
-git init
-git remote add upstream https://github.com/data-exp-lab/widgyts.git
-git pull upstream grid_view_widget
-pip install -e .

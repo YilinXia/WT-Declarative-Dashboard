@@ -44,7 +44,7 @@ This repo will be used to store all the necessary files or scripts regarding the
 Here, we use binder (tight with repo2docker)to test our environement settings
 
 ## Interesting Questions
-1. 
+
 
 ## Reference
 QuantStack. (2019, September 25). And voilà! Retrieved August 10, 2020, from https://blog.jupyter.org/and-voil%C3%A0-f6a2c08a4a93

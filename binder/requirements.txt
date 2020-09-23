@@ -1,0 +1,5 @@
+voila
+h5py
+pythreejs
+matplotlib==3.2.0
+git+https://github.com/data-exp-lab/widgyts@ee9402b8606449f69a0f50ed1a7ccd201ac15aa8
