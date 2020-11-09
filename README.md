@@ -1,6 +1,6 @@
 # Declarative Dashboards for Volumetric Data
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YilinXia/WT_Declarative_Dashboard/master?urlpath=lab/tree/widgyts_PR.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YilinXia/WT_Declarative_Dashboard/master?urlpath=lab/tree/Demo_Dashboard.ipynb)
 
 ## Project Overview
 Phase 1 <br>
