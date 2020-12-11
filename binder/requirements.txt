@@ -1,4 +1,5 @@
-voila
+jupyterlab==2.2.0
+voila==0.1.21
 h5py
 pythreejs
 matplotlib==3.2.0
